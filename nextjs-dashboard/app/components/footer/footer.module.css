@@ -1,0 +1,10 @@
+.footer {
+    width: 100%;
+    min-height: 250px; /* ajusta según veas */
+    
+    background: #000; /* negro sólido */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
