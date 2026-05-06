@@ -10,11 +10,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <HeaderModule/>
-
-      <body>{children}</body>
       
-      <FooterModule/>
+
+      <body>
+        <HeaderModule/>
+        {children}
+        <FooterModule/>
+      </body>
+      
+      
     </html>
   );
 }
