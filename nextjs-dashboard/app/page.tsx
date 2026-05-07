@@ -1,15 +1,12 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import RestaurantModule from "@/app/components/restaurantes/Page";
+import Restaurant from "./components/restaurant/restaurant";
 
 
-
-export default function Page() {
+export default function Home() {
   return (
-    <>
-    <RestaurantModule/>
-    </>
+    <Restaurant />
 
   );
 }
