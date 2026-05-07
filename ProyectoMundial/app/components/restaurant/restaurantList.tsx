@@ -88,7 +88,6 @@ const restaurants = [
 export default function RestaurantList() {
     return (
         <section className={styles.listSection}>
-            <p className={styles.count}>Mostrando {restaurants.length} restaurantes</p>
 
             <div className={styles.grid}>
                 {restaurants.map((restaurant) => (
