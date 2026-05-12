@@ -1,0 +1,23 @@
+.partidos {
+  background-color: #021108;
+  color: white;
+  min-height: 100vh;
+  padding: 32px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 32px;
+  align-items: start;
+}
+
+.mainContent {
+  width: 100%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}

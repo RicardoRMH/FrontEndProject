@@ -1,0 +1,32 @@
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.leftActions,
+.rightActions {
+    display: flex;
+    gap: 14px;
+}
+
+.activeButton {
+    background-color: #d6b438;
+    color: #041008;
+    border: 2px solid #d6b438;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.outlineButton {
+    background-color: transparent;
+    color: #d6b438;
+    border: 2px solid #d6b438;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-weight: 800;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.restaurant {
+    background-color: #021108;
+    color: white;
+    padding: 40px 32px;
+    min-height: 100vh;
+}
+
+.hero {
+    margin-bottom: 35px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 16px;
+}
+
+.content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}

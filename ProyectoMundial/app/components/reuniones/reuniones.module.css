@@ -1,0 +1,19 @@
+.reuniones {
+    background-color: #021108;
+    color: white;
+    min-height: 100vh;
+    padding: 40px 32px 70px;
+}
+
+.hero {
+    margin-bottom: 45px;
+}
+
+.hero h1 {
+    font-size: 46px;
+    margin-bottom: 12px;
+}
+
+.hero p {
+    font-size: 18px;
+}

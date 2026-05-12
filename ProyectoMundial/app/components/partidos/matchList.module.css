@@ -1,0 +1,56 @@
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.leftFilters {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.activeButton,
+.filterButton,
+.dropdownButton {
+  border-radius: 16px;
+  padding: 14px 28px;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.activeButton {
+  background-color: #d6b438;
+  color: #021108;
+  border: 2px solid #d6b438;
+}
+
+.filterButton {
+  background-color: #0b2617;
+  color: #b5c3b8;
+  border: 1px solid #244331;
+}
+
+.filterButton:hover {
+  color: white;
+  border-color: #d6b438;
+}
+
+.rightFilters {
+  display: flex;
+  align-items: center;
+}
+
+.dropdownButton {
+  background-color: #0b2617;
+  color: white;
+  border: 1px solid #244331;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
