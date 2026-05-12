@@ -1,0 +1,72 @@
+.card {
+  background-color: #0a321c;
+  border: 1px solid #1d5a32;
+  border-radius: 18px;
+  padding: 24px;
+}
+
+.card h2 {
+  margin-bottom: 18px;
+}
+
+.promoBox {
+  background-color: #061f11;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 18px;
+}
+
+.promoBox span {
+  font-size: 34px;
+}
+
+.promoBox h3 {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.promoBox strong {
+  color: #d6b438;
+}
+
+.promoBox p {
+  color: #b5c3b8;
+  margin-top: 8px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.dot,
+.activeDot {
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #6e756d;
+}
+
+.activeDot {
+  width: 26px;
+  height: 8px;
+  background-color: #d6b438;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  background-color: #d6b438;
+  color: #021108;
+  text-decoration: none;
+  border-radius: 28px;
+  padding: 14px;
+  font-weight: 900;
+}
