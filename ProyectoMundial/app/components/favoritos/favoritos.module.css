@@ -1,0 +1,20 @@
+.favoritos {
+  background-color: #021108;
+  color: white;
+  min-height: 100vh;
+  padding: 40px 32px 80px;
+}
+
+.hero {
+  margin-bottom: 44px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #dbe7dd;
+  font-size: 16px;
+}

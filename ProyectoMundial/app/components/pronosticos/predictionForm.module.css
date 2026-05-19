@@ -1,0 +1,130 @@
+.card {
+  background-color: #0a321c;
+  border: 1px solid #1d5a32;
+  border-radius: 16px;
+  padding: 28px;
+}
+
+.card h2 {
+  font-size: 26px;
+  margin-bottom: 26px;
+}
+
+.label {
+  display: block;
+  color: #dbe7dd;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.select {
+  width: 100%;
+  background-color: #061f11;
+  color: white;
+  border: 1px solid #d6b438;
+  border-radius: 6px;
+  padding: 14px;
+  margin-bottom: 22px;
+  font-weight: 700;
+}
+
+.matchBox {
+  background-color: #061f11;
+  border-radius: 12px;
+  padding: 28px;
+  margin-bottom: 24px;
+  display: grid;
+  grid-template-columns: 1fr 50px 1fr;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.matchBox div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.matchBox strong {
+  font-size: 34px;
+  color: black;
+}
+
+.matchBox span {
+  font-weight: 800;
+}
+
+.matchBox p {
+  font-size: 22px;
+  font-weight: 900;
+  color: #b5c3b8;
+}
+
+.matchBox small {
+  grid-column: 1 / 4;
+  color: #b5c3b8;
+  margin-top: 12px;
+}
+
+.radioGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.radioGroup label {
+  background-color: #061f11;
+  padding: 14px;
+  border-radius: 8px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.score {
+  display: grid;
+  grid-template-columns: 1fr 30px 1fr;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.score input {
+  background-color: #061f11;
+  color: white;
+  border: 1px solid #d6b438;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.score span {
+  text-align: center;
+  font-size: 22px;
+  color: #b5c3b8;
+}
+
+.submitButton {
+  width: 100%;
+  background-color: #d6b438;
+  color: #021108;
+  border: none;
+  border-radius: 28px;
+  padding: 16px;
+  font-size: 17px;
+  font-weight: 900;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.message {
+  margin-top: 18px;
+  color: #d6b438;
+  font-weight: 800;
+  text-align: center;
+}
