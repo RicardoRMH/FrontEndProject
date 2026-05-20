@@ -1,10 +1,5 @@
+import Home from "./components/home/home";
 
-import Restaurant from "./components/restaurant/restaurant";
-
-
-export default function Home() {
-  return (
-    <Restaurant />
-
-  );
+export default function Page() {
+  return <Home />;
 }

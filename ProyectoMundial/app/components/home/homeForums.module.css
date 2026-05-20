@@ -1,0 +1,88 @@
+.section {
+  background-color: #021108;
+  padding: 80px 32px;
+}
+
+.titleRow {
+  max-width: 1500px;
+  margin: 0 auto 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titleRow div {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.titleRow h2 {
+  font-size: 46px;
+  margin: 0;
+}
+
+.titleRow span {
+  width: 100px;
+  height: 5px;
+  background-color: #d6b438;
+}
+
+.viewAll {
+  color: #d6b438;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.grid {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.card {
+  background: linear-gradient(135deg, #0a321c, #020d07);
+  border-radius: 20px;
+  padding: 38px;
+  min-height: 200px;
+  border: 1px solid rgba(29, 90, 50, 0.5);
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.card h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.trending {
+  background-color: #ff4c4c;
+  color: white;
+  border-radius: 18px;
+  padding: 8px 14px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.card p {
+  color: #dbe7dd;
+  margin: 0 0 28px;
+}
+
+.card strong {
+  color: #d6b438;
+}
+
+.enter {
+  color: #d6b438;
+  text-decoration: none;
+  font-weight: 900;
+}

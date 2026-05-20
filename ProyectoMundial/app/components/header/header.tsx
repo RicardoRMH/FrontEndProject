@@ -1,28 +1,73 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import styles from "./header.module.css";
 
+const menuItems = [
+  {
+    label: "Partidos",
+    href: "/partidos",
+  },
+  {
+    label: "Pronósticos",
+    href: "/pronosticos",
+  },
+  {
+    label: "Foros",
+    href: "/foros",
+  },
+  {
+    label: "Reuniones",
+    href: "/reuniones",
+  },
+  {
+    label: "Restaurantes",
+    href: "/restaurantes",
+  },
+  {
+    label: "Favoritos",
+    href: "/favoritos",
+  },
+];
+
 export default function Header() {
+  const pathname = usePathname();
+
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
-        <div className={styles.logo}>
+        <Link href="/" className={styles.logo}>
           <span className={styles.logoIcon}>⚽</span>
           <span>Mundial Connect</span>
-        </div>
+        </Link>
 
         <ul className={styles.menu}>
-          <li><Link href="/partidos">Partidos</Link></li>
-          <li><Link href="/pronosticos">Pronósticos</Link></li>
-          <li><Link href="/foros">Foros</Link></li>
-          <li><Link href="/reuniones">Reuniones</Link></li>
-          <li><Link href="/restaurantes">Restaurantes</Link></li>
-          <li><Link href="/favoritos">Favoritos</Link></li>
+          {menuItems.map((item) => {
+            const isActive =
+              pathname === item.href || pathname.startsWith(`${item.href}/`);
+
+            return (
+              <li key={item.href}>
+                <Link
+                  href={item.href}
+                  className={isActive ? styles.activeLink : styles.link}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
 
         <div className={styles.actions}>
 
-
-          <Link href="/perfil" className={styles.avatar}>
+          <Link
+            href="/perfil"
+            className={
+              pathname === "/perfil" ? styles.activeAvatar : styles.avatar
+            }
+          >
             👤
           </Link>
 
