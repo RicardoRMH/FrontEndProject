@@ -4,7 +4,7 @@ type RestaurantCardProps = {
     name: string;
     image: string;
     rating: string;
-    reviews: string;
+    reviews: number;
     address: string;
     foodType: string;
     promotion: string;
@@ -30,7 +30,17 @@ export default function RestaurantCard({
                 <h3>{name}</h3>
 
                 <p className={styles.rating}>
-                    ⭐⭐⭐⭐⭐ {rating} ({reviews} reseñas)
+
+                    {"⭐".repeat(Number(rating))}
+
+                    {" "}
+
+                    {rating}
+
+                    {" "}
+
+                    ({reviews} reseñas)
+ 
                 </p>
 
                 <p className={styles.text}>📍 {address}</p>

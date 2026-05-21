@@ -97,35 +97,66 @@ export default function RestaurantList({
         return <p>Cargando restaurantes...</p>;
     }
 
-    return (
-        <section className={styles.listSection}>
 
-            <div className={styles.grid}>
 
-                {restaurants.map((restaurant) => (
 
-                    <RestaurantCard
-                        key={restaurant.id_restaurante}
+return (
 
-                        name={restaurant.nombre}
+    <section className={styles.listSection}>
 
-                        image={"/restaurant1.jpg"}
+        {
+            restaurants.length === 0
+                ? (
 
-                        rating={restaurant.rating?.toString() || "0"}
+                    <div className={styles.emptyState}>
 
-                        reviews={restaurant.telefono}
+                        <h2>
+                            No se encontraron restaurantes
+                        </h2>
 
-                        address={restaurant.sitio_web}
+                        <p>
+                            Intenta cambiar los filtros de búsqueda
+                        </p>
 
-                        foodType={restaurant.tipo_comida}
+                    </div>
 
-                        promotion={restaurant.descripcion}
-                    />
+                )
+                : (
 
-                ))}
+                    <div className={styles.grid}>
 
-            </div>
+                        {
+                            restaurants.map((restaurant) => (
 
-        </section>
-    );
+                                <RestaurantCard
+                                    key={restaurant.id_restaurante}
+
+                                    name={restaurant.nombre}
+
+                                    image={"/restaurant1.jpg"}
+
+                                    rating={
+                                        restaurant.rating?.toString() || "0"
+                                    }
+
+                                    reviews={restaurant.numero_resenas}
+
+                                    address={restaurant.direccion}
+
+                                    foodType={restaurant.tipo_comida}
+
+                                    promotion={restaurant.descripcion}
+                                />
+
+                            ))
+                        }
+
+                    </div>
+
+                )
+        }
+
+    </section>
+
+);
 }

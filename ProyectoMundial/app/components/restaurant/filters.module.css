@@ -51,11 +51,6 @@
     cursor: pointer;
 }
 
-.ratingButtons button:first-child {
-    background-color: #d6b438;
-    color: #041008;
-}
-
 .clearButton {
     background-color: #d6b438;
     color: #041008;
@@ -65,4 +60,15 @@
     padding: 12px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ratingButtons .activeRating {
+    background-color: #d6b438 !important;
+    color: #041008 !important;
 }
