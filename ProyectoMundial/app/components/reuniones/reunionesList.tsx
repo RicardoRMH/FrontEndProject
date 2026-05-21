@@ -4,7 +4,7 @@ import styles from "./reunionesList.module.css";
 const reuniones = [
     {
         name: "La Cantina del Gol",
-        image: "/reunion1.jpg",
+        image: "/restaurantes/restaurante6.jpg",
         countryA: "Argentina",
         codeA: "AR",
         countryB: "Brasil",
@@ -18,7 +18,7 @@ const reuniones = [
     },
     {
         name: "Tapas y Fútbol",
-        image: "/reunion2.jpg",
+        image: "/restaurantes/restaurante8.jpg",
         countryA: "España",
         codeA: "ES",
         countryB: "Francia",
@@ -32,7 +32,7 @@ const reuniones = [
     },
     {
         name: "El Estadio Bar & Grill",
-        image: "/reunion3.jpg",
+        image: "/restaurantes/restaurante2.jpg",
         countryA: "México",
         codeA: "MX",
         countryB: "Uruguay",
@@ -46,7 +46,7 @@ const reuniones = [
     },
     {
         name: "The Green Pub",
-        image: "/reunion4.jpg",
+        image: "/restaurantes/restaurante1.jpg",
         countryA: "Alemania",
         codeA: "DE",
         countryB: "Inglaterra",
@@ -60,7 +60,7 @@ const reuniones = [
     },
     {
         name: "Brasas Argentinas",
-        image: "/reunion5.jpg",
+        image: "/restaurantes/restaurante4.jpg",
         countryA: "Argentina",
         codeA: "AR",
         countryB: "Brasil",
@@ -74,7 +74,7 @@ const reuniones = [
     },
     {
         name: "Pizzería Azzurra",
-        image: "/reunion6.jpg",
+        image: "/restaurantes/restaurante3.jpg",
         countryA: "Portugal",
         codeA: "PT",
         countryB: "Italia",

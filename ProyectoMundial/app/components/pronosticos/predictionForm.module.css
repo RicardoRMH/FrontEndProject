@@ -3,6 +3,8 @@
   border: 1px solid #1d5a32;
   border-radius: 16px;
   padding: 28px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .card h2 {
@@ -26,28 +28,31 @@
   padding: 14px;
   margin-bottom: 22px;
   font-weight: 700;
+  box-sizing: border-box;
 }
 
 .matchBox {
   background-color: #061f11;
   border-radius: 12px;
-  padding: 28px;
+  padding: 24px;
   margin-bottom: 24px;
   display: grid;
-  grid-template-columns: 1fr 50px 1fr;
+  grid-template-columns: 1fr 40px 1fr;
   align-items: center;
   text-align: center;
   gap: 10px;
+  box-sizing: border-box;
 }
 
 .matchBox div {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  min-width: 0;
 }
 
 .matchBox strong {
-  font-size: 34px;
+  font-size: 30px;
   color: black;
 }
 
@@ -56,7 +61,7 @@
 }
 
 .matchBox p {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 900;
   color: #b5c3b8;
 }
@@ -82,22 +87,28 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  box-sizing: border-box;
 }
 
 .score {
   display: grid;
-  grid-template-columns: 1fr 30px 1fr;
+  grid-template-columns: minmax(0, 1fr) 20px minmax(0, 1fr);
   align-items: center;
-  gap: 16px;
+  gap: 10px;
+  width: 100%;
   margin-bottom: 24px;
+  box-sizing: border-box;
 }
 
 .score input {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
   background-color: #061f11;
   color: white;
   border: 1px solid #d6b438;
   border-radius: 8px;
-  padding: 16px;
+  padding: 14px 10px;
   text-align: center;
   font-size: 22px;
   font-weight: 800;

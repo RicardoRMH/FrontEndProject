@@ -4,7 +4,7 @@ import styles from "./restaurantList.module.css";
 const restaurants = [
     {
         name: "La Cantina del Gol",
-        image: "/restaurant1.jpg",
+        image: "/restaurantes/restaurante6.jpg",
         rating: "4.8",
         reviews: "342",
         address: "Av. Insurgentes Sur 1234, Roma Norte",
@@ -13,7 +13,7 @@ const restaurants = [
     },
     {
         name: "El Estadio Bar & Grill",
-        image: "/restaurant2.jpg",
+        image: "/restaurantes/restaurante2.jpg",
         rating: "4.6",
         reviews: "289",
         address: "Av. Chapultepec 567, Col. Americana",
@@ -22,7 +22,7 @@ const restaurants = [
     },
     {
         name: "Pizzería Azzurra",
-        image: "/restaurant3.jpg",
+        image: "/restaurantes/restaurante3.jpg",
         rating: "4.9",
         reviews: "456",
         address: "Calle Morelos 890, Centro",
@@ -31,7 +31,7 @@ const restaurants = [
     },
     {
         name: "Brasas Argentinas",
-        image: "/restaurant4.jpg",
+        image: "/restaurantes/restaurante4.jpg",
         rating: "4.7",
         reviews: "521",
         address: "Av. Corrientes 2345, Palermo",
@@ -40,7 +40,7 @@ const restaurants = [
     },
     {
         name: "The Green Pub",
-        image: "/restaurant5.jpg",
+        image: "/restaurantes/restaurante1.jpg",
         rating: "4.5",
         reviews: "398",
         address: "Calle Gran Vía 123, Centro",
@@ -49,7 +49,7 @@ const restaurants = [
     },
     {
         name: "Samba Grill",
-        image: "/restaurant6.jpg",
+        image: "/restaurantes/restaurante7.jpg",
         rating: "4.8",
         reviews: "612",
         address: "Rua Augusta 789, Jardins",
@@ -58,7 +58,7 @@ const restaurants = [
     },
     {
         name: "Tapas y Fútbol",
-        image: "/restaurant7.jpg",
+        image: "/restaurantes/restaurante8.jpg",
         rating: "4.6",
         reviews: "445",
         address: "Las Ramblas 456, Gótico",
@@ -67,7 +67,7 @@ const restaurants = [
     },
     {
         name: "Le Bistro du Ballon",
-        image: "/restaurant8.jpg",
+        image: "/restaurantes/restaurante9.jpg",
         rating: "4.7",
         reviews: "378",
         address: "Rue de Rivoli 234, Marais",
@@ -76,7 +76,7 @@ const restaurants = [
     },
     {
         name: "Wings & Goals",
-        image: "/restaurant9.jpg",
+        image: "/restaurantes/restaurante10.jpg",
         rating: "4.4",
         reviews: "523",
         address: "Sunset Blvd 567, Hollywood",
