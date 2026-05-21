@@ -1,0 +1,28 @@
+.perfil {
+  background-color: #021108;
+  color: white;
+  min-height: 100vh;
+  padding: 48px 32px 80px;
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 36px;
+  align-items: start;
+}
+
+.content {
+  padding-top: 8px;
+}
+
+.header {
+  margin-bottom: 34px;
+}
+
+.header h1 {
+  font-size: 46px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  color: #dbe7dd;
+  font-size: 18px;
+}

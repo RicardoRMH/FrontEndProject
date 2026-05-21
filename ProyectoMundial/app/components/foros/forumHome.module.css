@@ -1,0 +1,113 @@
+.foros {
+  background-color: #021108;
+  color: white;
+  min-height: 100vh;
+  padding: 48px 40px 90px;
+}
+
+.hero {
+  margin-bottom: 55px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  color: #dbe7dd;
+  font-size: 22px;
+}
+
+.search {
+  width: 100%;
+  background-color: #0a321c;
+  color: white;
+  border: 1px solid rgba(214, 180, 56, 0.45);
+  border-radius: 28px;
+  padding: 18px 28px;
+  font-size: 18px;
+  outline: none;
+  margin-bottom: 28px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 52px;
+}
+
+.filter,
+.activeFilter {
+  border-radius: 28px;
+  padding: 12px 28px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.filter {
+  background-color: #0a321c;
+  color: white;
+  border: 1px solid rgba(214, 180, 56, 0.45);
+}
+
+.activeFilter {
+  background-color: #d6b438;
+  color: #021108;
+  border: 1px solid #d6b438;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.card {
+  background: linear-gradient(135deg, #0a321c, #020d07);
+  border-radius: 18px;
+  padding: 38px;
+  min-height: 220px;
+  border: 1px solid rgba(29, 90, 50, 0.5);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.card h2 {
+  font-size: 32px;
+}
+
+.trending {
+  background-color: #ff4c4c;
+  color: white;
+  border-radius: 18px;
+  padding: 8px 14px;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.card p {
+  color: #dbe7dd;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.card strong {
+  color: #d6b438;
+}
+
+.enterButton {
+  margin-top: 22px;
+  background: transparent;
+  border: none;
+  color: #d6b438;
+  font-weight: 900;
+  font-size: 16px;
+  cursor: pointer;
+}

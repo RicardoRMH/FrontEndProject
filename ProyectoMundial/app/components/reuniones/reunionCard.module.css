@@ -1,0 +1,125 @@
+.card {
+    background-color: #0a321c;
+    border: 1px solid #1d5a32;
+    border-radius: 16px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 390px 1fr 260px;
+    min-height: 260px;
+    box-shadow: 0 10px 30px rgba(214, 180, 56, 0.15);
+}
+
+.imageBox {
+    height: 100%;
+}
+
+.imageBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    padding: 26px 36px;
+}
+
+.info h2 {
+    font-size: 26px;
+    margin-bottom: 18px;
+}
+
+.match {
+    background-color: #052313;
+    border-radius: 8px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.match span {
+    color: #6c7a70;
+}
+
+.match strong {
+    color: white;
+}
+
+.match small {
+    color: #b5c3b8;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.capacity {
+    margin-top: 18px;
+}
+
+.capacityText {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.progress {
+    width: 100%;
+    height: 8px;
+    background-color: #021108;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progressFill {
+    height: 100%;
+    background-color: #d6b438;
+    border-radius: 20px;
+}
+
+.confirmed {
+    margin-top: 18px;
+    color: #b5c3b8;
+    font-size: 14px;
+}
+
+.buttons {
+    padding: 60px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: flex-start;
+}
+
+.joinButton {
+    background-color: #d6b438;
+    color: #041008;
+    border: 2px solid #d6b438;
+    border-radius: 30px;
+    padding: 16px;
+    font-weight: 900;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.secondaryButton {
+    background-color: transparent;
+    color: #d6b438;
+    border: 2px solid #d6b438;
+    border-radius: 30px;
+    padding: 14px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.shareButton {
+    background-color: transparent;
+    color: #b5c3b8;
+    border: none;
+    margin-top: 8px;
+    cursor: pointer;
+}

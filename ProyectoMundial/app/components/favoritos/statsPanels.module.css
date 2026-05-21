@@ -1,0 +1,136 @@
+.panels {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+}
+
+.panel {
+  background-color: #0a321c;
+  border: 1px solid #1d5a32;
+  border-radius: 14px;
+  padding: 28px;
+}
+
+.panel h2 {
+  font-size: 24px;
+  margin-bottom: 26px;
+}
+
+.progressItem {
+  margin-bottom: 20px;
+}
+
+.progressHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.progressHeader span {
+  font-weight: 700;
+}
+
+.progressHeader strong {
+  color: #d6b438;
+  font-size: 13px;
+}
+
+.bar,
+.barGreen {
+  height: 9px;
+  background-color: #021108;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.bar div {
+  height: 100%;
+  background-color: #d6b438;
+  border-radius: 20px;
+}
+
+.barGreen div {
+  height: 100%;
+  background: linear-gradient(90deg, #14c782, #d6b438);
+  border-radius: 20px;
+}
+
+.restaurantList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.restaurantItem {
+  background-color: #061f11;
+  border-radius: 12px;
+  padding: 14px;
+  display: grid;
+  grid-template-columns: 44px 1fr 60px;
+  align-items: center;
+  gap: 14px;
+}
+
+.rank {
+  width: 36px;
+  height: 36px;
+  background-color: #d6b438;
+  color: #021108;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.restaurantItem h3 {
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.restaurantItem p {
+  color: #d6b438;
+  font-size: 12px;
+}
+
+.restaurantItem strong {
+  color: #d6b438;
+  text-align: right;
+}
+
+.restaurantItem small {
+  display: block;
+  color: #b5c3b8;
+  font-size: 11px;
+}
+
+.userStats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.userStats div {
+  background-color: #061f11;
+  border-radius: 12px;
+  text-align: center;
+  padding: 24px 12px;
+}
+
+.userStats span {
+  display: block;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.userStats strong {
+  display: block;
+  color: white;
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+.userStats p {
+  color: #b5c3b8;
+  font-size: 13px;
+}

@@ -1,0 +1,81 @@
+.hero {
+  min-height: 760px;
+  background: linear-gradient(rgba(2, 17, 8, 0.55), rgba(2, 17, 8, 0.9)),
+    url("/stadium.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  min-height: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 32px;
+}
+
+.badge {
+  color: #d6b438;
+  border: 1px solid #d6b438;
+  border-radius: 28px;
+  padding: 14px 28px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 44px;
+  background-color: rgba(214, 180, 56, 0.12);
+}
+
+.hero h1 {
+  font-size: 90px;
+  line-height: 1.05;
+  font-weight: 900;
+  margin: 0 0 28px;
+}
+
+.hero h1 span {
+  color: #d6b438;
+}
+
+.hero p {
+  max-width: 780px;
+  color: #dbe7dd;
+  font-size: 26px;
+  line-height: 1.4;
+  margin: 0 0 46px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+
+.primaryButton,
+.secondaryButton {
+  min-width: 260px;
+  border-radius: 36px;
+  padding: 18px 34px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.primaryButton {
+  background-color: #d6b438;
+  color: #021108;
+  border: 2px solid #d6b438;
+}
+
+.secondaryButton {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.secondaryButton:hover {
+  border-color: #d6b438;
+  color: #d6b438;
+}

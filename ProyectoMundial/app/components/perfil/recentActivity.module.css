@@ -1,0 +1,53 @@
+.activity h2 {
+  font-size: 30px;
+  margin-bottom: 24px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.item {
+  background-color: #0a321c;
+  border: 1px solid #1d5a32;
+  border-radius: 16px;
+  padding: 28px;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: rgba(214, 180, 56, 0.22);
+  color: #d6b438;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.label {
+  color: #9fb8c4;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.detail {
+  color: #d6b438;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.item span {
+  color: #b5c3b8;
+}

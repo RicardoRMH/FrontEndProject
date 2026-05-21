@@ -1,0 +1,42 @@
+.card {
+  background-color: #0a321c;
+  border: 1px solid #1d5a32;
+  border-radius: 18px;
+  padding: 24px;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.stat {
+  background-color: #061f11;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.stat span {
+  display: block;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.stat strong {
+  display: block;
+  color: #d6b438;
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.stat p {
+  color: #b5c3b8;
+  font-size: 14px;
+}

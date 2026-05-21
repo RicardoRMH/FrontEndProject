@@ -1,0 +1,33 @@
+.pronosticos {
+  background-color: #021108;
+  color: white;
+  min-height: 100vh;
+  padding: 40px 32px 80px;
+}
+
+.hero {
+  margin-bottom: 45px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #dbe7dd;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 430px 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

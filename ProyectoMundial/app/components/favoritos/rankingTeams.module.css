@@ -1,0 +1,137 @@
+.ranking {
+  margin-bottom: 60px;
+}
+
+.ranking h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 32px;
+}
+
+.podium {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 28px;
+  margin-bottom: 42px;
+}
+
+.podiumItem {
+  text-align: center;
+}
+
+.bar {
+  width: 135px;
+  border-radius: 18px 18px 0 0;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first .bar {
+  height: 200px;
+  background-color: #d6b438;
+}
+
+.second .bar {
+  height: 145px;
+  background-color: #8d97a5;
+}
+
+.third .bar {
+  height: 110px;
+  background-color: #ee5c0a;
+}
+
+.code {
+  color: #021108;
+  font-size: 56px;
+  font-weight: 900;
+}
+
+.rank {
+  position: absolute;
+  bottom: -24px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: white;
+  color: #d6b438;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+.podiumItem h3 {
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.podiumItem strong {
+  color: #d6b438;
+  font-size: 28px;
+}
+
+.podiumItem p {
+  color: #b5c3b8;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.teamCard {
+  background-color: #0a321c;
+  border: 1px solid #1d5a32;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.smallRank {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(214, 180, 56, 0.25);
+  color: #d6b438;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+
+.smallCode {
+  color: #021108;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.teamCard h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.teamCard strong {
+  color: #d6b438;
+  font-size: 20px;
+}
+
+.teamCard p {
+  color: #b5c3b8;
+  font-size: 12px;
+  margin-top: 6px;
+}

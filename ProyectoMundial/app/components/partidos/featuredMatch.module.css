@@ -1,0 +1,113 @@
+.featured {
+  min-height: 380px;
+  border-radius: 28px;
+  overflow: hidden;
+  padding: 70px 80px;
+  margin-bottom: 34px;
+  background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.86), rgba(2, 17, 8, 0.65)),
+    url("/stadium.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  display: inline-block;
+  background-color: rgba(170, 40, 40, 0.35);
+  border: 1px solid #d14d4d;
+  color: #ff6b6b;
+  padding: 10px 22px;
+  border-radius: 24px;
+  font-weight: 800;
+  margin-bottom: 28px;
+}
+
+.info h1 {
+  font-size: 64px;
+  margin-bottom: 24px;
+}
+
+.info h1 span {
+  color: #d6b438;
+}
+
+.details {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 36px;
+  color: #dbe7dd;
+}
+
+.countdown {
+  display: flex;
+  gap: 18px;
+}
+
+.countdown div {
+  width: 88px;
+  height: 88px;
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown strong {
+  color: #d6b438;
+  font-size: 34px;
+}
+
+.countdown span {
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+  text-align: center;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.14);
+  border: 3px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  color: black;
+}
+
+.teams h3 {
+  margin-top: 16px;
+  font-size: 24px;
+}
+
+.teams p {
+  color: #d6b438;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.vs {
+  background-color: rgba(214, 180, 56, 0.2);
+  border: 1px solid #d6b438;
+  color: #d6b438;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
