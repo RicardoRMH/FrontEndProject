@@ -79,3 +79,23 @@
   border-color: #d6b438;
   color: #d6b438;
 }
+
+.hero {
+    min-height: 720px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 120px 20px 80px;
+    overflow: hidden;
+
+    background-image: linear-gradient(
+        rgba(2, 17, 8, 0.75),
+        rgba(2, 17, 8, 0.85)
+    ), url("/restaurantes/fondo-home.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
