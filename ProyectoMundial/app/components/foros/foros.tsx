@@ -24,7 +24,7 @@ export type ForumCountry = {
   postsCount: number;
   members: number;
   trending?: boolean;
-  ranking: string;
+  ranking?: string;
   posts: ForumPost[];
 };
 
@@ -45,7 +45,8 @@ const initialForums: ForumCountry[] = [
         date: "11 jun, 09:15",
         votes: 187,
         title: "Análisis táctico: México vs Uruguay",
-        content: "Posible formación 4-3-3 con Lozano y Vega en las bandas. ¿Qué opinan?",
+        content:
+          "Posible formación 4-3-3 con Lozano y Vega en las bandas. ¿Qué opinan?",
         comments: 56,
         category: "Previas",
         pinned: true,
@@ -57,7 +58,8 @@ const initialForums: ForumCountry[] = [
         date: "12 jun, 18:30",
         votes: 143,
         title: "¿Quién debería ser titular en el ataque?",
-        content: "Creo que México necesita más velocidad por las bandas para abrir espacios.",
+        content:
+          "Creo que México necesita más velocidad por las bandas para abrir espacios.",
         comments: 41,
         category: "Alineaciones",
       },
@@ -90,7 +92,8 @@ const initialForums: ForumCountry[] = [
         date: "10 jun, 14:30",
         votes: 234,
         title: "¿Messi jugará los 90 minutos contra Brasil?",
-        content: "Considerando su edad y el ritmo del partido, ¿creen que Scaloni lo deje toda la cancha?",
+        content:
+          "Considerando su edad y el ritmo del partido, ¿creen que Scaloni lo deje toda la cancha?",
         comments: 89,
         category: "Debate del partido",
       },
@@ -145,7 +148,8 @@ const initialForums: ForumCountry[] = [
         date: "13 jun, 10:20",
         votes: 331,
         title: "Brasil tiene que presionar desde arriba",
-        content: "Si dejamos salir jugando a Argentina, nos pueden complicar mucho.",
+        content:
+          "Si dejamos salir jugando a Argentina, nos pueden complicar mucho.",
         comments: 87,
         category: "Debate del partido",
       },
@@ -188,7 +192,8 @@ const initialForums: ForumCountry[] = [
         date: "13 jun, 12:15",
         votes: 144,
         title: "España necesita jugar con paciencia",
-        content: "Francia es fuerte en transición, hay que cuidar cada pérdida.",
+        content:
+          "Francia es fuerte en transición, hay que cuidar cada pérdida.",
         comments: 44,
         category: "Debate del partido",
       },
@@ -221,7 +226,8 @@ const initialForums: ForumCountry[] = [
         date: "13 jun, 17:20",
         votes: 122,
         title: "¿Francia debe atacar o esperar?",
-        content: "España controla mucho la pelota, pero Francia puede hacer daño al contragolpe.",
+        content:
+          "España controla mucho la pelota, pero Francia puede hacer daño al contragolpe.",
         comments: 31,
         category: "Debate del partido",
       },
@@ -241,7 +247,8 @@ const initialForums: ForumCountry[] = [
         date: "13 jun, 09:40",
         votes: 176,
         title: "Alemania vs Inglaterra: duelo físico",
-        content: "Este partido se puede definir por intensidad y pelota parada.",
+        content:
+          "Este partido se puede definir por intensidad y pelota parada.",
         comments: 46,
         category: "Previas",
       },
@@ -261,7 +268,8 @@ const initialForums: ForumCountry[] = [
         date: "12 jun, 13:00",
         votes: 145,
         title: "¿Kane debe jugar solo arriba?",
-        content: "Me gustaría verlo acompañado para presionar mejor a Alemania.",
+        content:
+          "Me gustaría verlo acompañado para presionar mejor a Alemania.",
         comments: 39,
         category: "Alineaciones",
       },
@@ -341,7 +349,8 @@ const initialForums: ForumCountry[] = [
         date: "16 jun, 09:45",
         votes: 103,
         title: "Italia necesita defender con orden",
-        content: "Portugal tiene mucha calidad arriba, no podemos regalar espacios.",
+        content:
+          "Portugal tiene mucha calidad arriba, no podemos regalar espacios.",
         comments: 21,
         category: "Alineaciones",
       },
@@ -360,7 +369,7 @@ const initialForums: ForumCountry[] = [
         avatar: "🇳🇱",
         date: "16 jun, 15:35",
         votes: 88,
-        title: "Países Bajos puede dominar por bandas",
+        title: "Países Bajos puede dominar por bandasss",
         content: "La amplitud será clave para generar peligro.",
         comments: 19,
         category: "Previas",
@@ -370,7 +379,7 @@ const initialForums: ForumCountry[] = [
 ];
 
 export default function Foros() {
-  const [forums, setForums] = useState(initialForums);
+  const [forums, setForums] = useState<ForumCountry[]>(initialForums);
   const [selectedForumId, setSelectedForumId] = useState<number | null>(null);
 
   const selectedForum = forums.find((forum) => forum.id === selectedForumId);

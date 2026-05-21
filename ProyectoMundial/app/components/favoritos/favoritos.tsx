@@ -7,7 +7,7 @@ export default function Favoritos() {
     <main className={styles.favoritos}>
       <section className={styles.hero}>
         <h1>Favoritos y Estadísticas</h1>
-        <p>Descubre las tendencias y equipos más apoyados por la comunidad</p>
+        <p>Descubre las  tendencias y equipos más apoyados por la comunidad</p>
       </section>
 
       <RankingTeams />

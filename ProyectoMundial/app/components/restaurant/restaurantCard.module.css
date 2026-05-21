@@ -7,13 +7,14 @@
 
 .imageContainer {
     position: relative;
-    height: 170px;
+    height: 200px;
 }
 
 .imageContainer img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
 
 .imageContainer span {
@@ -30,38 +31,38 @@
 }
 
 .info {
-    padding: 22px;
+    padding: 12px 18px 14px;
 }
 
 .info h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin: 0 0 6px;
 }
 
 .rating {
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-size: 13px;
+    margin-bottom: 5px;
 }
 
 .text {
-    font-size: 13px;
+    font-size: 12px;
     color: #555;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .promotion {
     background-color: #fff8e5;
     border: 1px solid #ead59a;
     border-radius: 8px;
-    padding: 12px;
-    font-size: 13px;
+    padding: 7px 10px;
+    font-size: 12px;
     font-weight: bold;
-    margin: 16px 0;
+    margin: 8px 0;
 }
 
 .button {
     width: 100%;
-    padding: 12px;
+    padding: 7px;
     border-radius: 25px;
     border: 2px solid #071108;
     background-color: white;

@@ -1,60 +1,92 @@
 .card {
-  background-color: #0a321c;
-  border: 1px solid #1d5a32;
-  border-radius: 16px;
-  padding: 28px;
+    background-color: #063d1f;
+    border: 1px solid rgba(214, 180, 56, 0.25);
+    border-radius: 18px;
+    padding: 28px;
+    color: white;
 }
 
 .card h2 {
-  font-size: 26px;
-  margin-bottom: 24px;
+    font-size: 26px;
+    margin-bottom: 24px;
 }
 
 .players {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .player {
-  background-color: #061f11;
-  border-radius: 12px;
-  padding: 16px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: linear-gradient(90deg, #021f10, #043018);
+    border-radius: 16px;
+    padding: 18px 22px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.player:hover {
+    transform: translateX(6px);
+    background: linear-gradient(90deg, #062f18, #064421);
 }
 
 .rank {
-  width: 42px;
-  height: 42px;
-  background-color: #d6b438;
-  color: #021108;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 900;
-  font-size: 18px;
+    width: 46px;
+    height: 46px;
+    min-width: 46px;
+    border-radius: 50%;
+    background-color: #d6b438;
+    color: #071108;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .avatar {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
+    width: 72px;
+    height: 72px;
+    min-width: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    border: 3px solid #d6b438;
+    background-color: white;
 }
 
-.player h3 {
-  font-size: 16px;
-  margin-bottom: 4px;
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
-.player p {
-  color: #b5c3b8;
-  font-size: 14px;
+.info h3 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.info p {
+    font-size: 14px;
+    margin: 0;
+    color: #c9f5d8;
+}
+
+.voteBar {
+    width: 180px;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+.voteFill {
+    height: 100%;
+    background-color: #d6b438;
+    border-radius: 999px;
 }

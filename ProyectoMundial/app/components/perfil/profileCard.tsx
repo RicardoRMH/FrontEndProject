@@ -7,8 +7,8 @@ export default function ProfileCard() {
         👤
       </div>
 
-      <h2>Carlos Rodríguez</h2>
-      <p className={styles.username}>@carlosR10</p>
+      <h2>Rodrigo Rojas</h2>
+      <p className={styles.username}>@Rodrigo7</p>
 
       <div className={styles.favorite}>
         <span>País Favorito</span>
