@@ -12,3 +12,23 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
+
+.emptyState {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.emptyState h2 {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.emptyState p {
+    color: #bdbdbd;
+}

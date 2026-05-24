@@ -1,0 +1,118 @@
+.container {
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+
+  color: white;
+
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.5rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 2rem;
+
+  padding: 1.5rem;
+
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 1rem;
+
+  background: rgb(13, 40, 24);
+}
+
+.content {
+  flex: 1;
+}
+
+.place {
+  margin-bottom: 0.5rem;
+
+  color: white;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.match {
+  margin-bottom: 0.5rem;
+
+  color: rgb(209, 213, 219);
+
+  font-size: 1rem;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+
+  gap: 0.5rem;
+
+  color: rgb(156, 163, 175);
+
+  font-size: 0.875rem;
+}
+
+.infoItem svg {
+  color: rgb(212, 175, 55);
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+
+  border: none;
+  border-radius: 999px;
+
+  background: rgb(212, 175, 55);
+
+  color: black;
+
+  font-size: 1rem;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  white-space: nowrap;
+
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background: rgb(228, 195, 82);
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
