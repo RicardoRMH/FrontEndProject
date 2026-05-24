@@ -127,12 +127,7 @@ export default function ForumDetail({
                                 new Date().toISOString(),
                         },
                     ])
-                    .select(`
-                        *,
-                        usuario (
-                            nombre
-                        )
-                    `)
+                 .select("*")
                     .single();
 
             /*
